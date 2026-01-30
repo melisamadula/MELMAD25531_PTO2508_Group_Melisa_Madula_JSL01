@@ -21,6 +21,16 @@ nav {
     padding: 20px;
 }
 
+button {
+    background-color: #635fc7;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    /*width: 150px;*/    /*OR 80vw, once I specify dimensions*/
+}
+
 .page {
     padding: 20px;
 }
