@@ -52,17 +52,26 @@ main {
     flex-direction: row;
     height: 100vh;
     background-color: #f4f7fa;
-    padding: 20px;
+    padding-left: 20px;
 }
 
 h4 {
     color: #828FA3;
 }
 
+.tasks {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f7fa;
+    width: 300px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+
 .card {
     background-color: #ffffff;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 18px 14px;
+    margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
