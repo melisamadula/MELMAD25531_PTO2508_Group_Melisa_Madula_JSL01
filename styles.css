@@ -1,11 +1,4 @@
-/* Styles for the Kanban Board Application */
-
-/*
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}*/ /* COULD BE CORRECT*/
+/* === STYLES for the Kanban Board Application === */
 
 body {
     width: 1440px;
@@ -27,8 +20,6 @@ nav {
     width: 10vw;
     height: auto;
     padding-top: 20px;
-    /*border-radius: 50%;
-    margin-bottom: 20px;*/
 }
 
 button {
@@ -38,14 +29,16 @@ button {
     padding: 10px 15px;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
-    width: 10vw;   /*OR 150px once I specify dimensions*/
+    width: 10vw;
 }
+
+
+/* === MAIN PAGE SECTION === */
 
 .page {
     width: 90vw;
     height: 100vh;
     padding-top: 20px;
-    /*margin-bottom: 0;*/
 }
 
 main {
@@ -77,6 +70,8 @@ h4 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* === Colorful Dots Section === */
+
 .dot-one {
     width: 8px;
     height: 8px;
@@ -104,11 +99,12 @@ h4 {
     margin-right: 8px;
 }
 
-/* MEDIA QUERIES for Small Screens */
+
+/* === MEDIA QUERIES for Small Screens === */
 
 @media (max-width: 425px) {
   #hide {
-    display: none; /* This removes the column from the layout entirely */
+    display: none; /* This removes the column OR object from the layout entirely */
   }
   body {
     width: 100vw;
@@ -132,7 +128,6 @@ h4 {
     width: 100vw;
     height: 90vh;
     padding-top: 0;
-    /*margin-bottom: 0;*/
   }
   main {
     width: 100vw;
@@ -140,9 +135,5 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*padding-bottom: 10px;*/
   }
-  /*.tasks {
-    margin-bottom: 0;
-  }*/
 }
