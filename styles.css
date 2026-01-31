@@ -37,7 +37,7 @@ button {
     padding: 10px 15px;
     border-radius: 0 25px 25px 0;
     cursor: pointer;
-    /*width: 80vw;*/   /*OR 150px, once I specify dimensions*/
+    width: 10vw;   /*OR 150px once I specify dimensions*/
 }
 
 .page {
