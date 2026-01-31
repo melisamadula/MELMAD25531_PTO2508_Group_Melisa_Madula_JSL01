@@ -103,3 +103,11 @@ h4 {
     display: inline-block;
     margin-right: 8px;
 }
+
+/* MEDIA QUERIES for Small Screens */
+
+@media screen and (max-width: 425px) {
+  #hide {
+    display: none; /* This removes the column from the layout entirely */
+  }
+}
