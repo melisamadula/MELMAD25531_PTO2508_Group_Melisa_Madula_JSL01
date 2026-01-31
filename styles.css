@@ -75,3 +75,30 @@ h4 {
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.dot-one {
+    width: 8px;
+    height: 8px;
+    background-color: #49C4E5;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.dot-two {
+    width: 8px;
+    height: 8px;
+    background-color: #635fc7;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.dot-three {
+    width: 8px;
+    height: 8px;
+    background-color: #83f28f;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
